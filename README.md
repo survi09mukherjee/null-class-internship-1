@@ -1,10 +1,10 @@
 
-# DeOldify
+# Videofy
 
 **This Reposisitory is Archived**  This project was a wild ride since I started it back in 2018.  6 years ago as of this writing (October 19, 2024)!.  It's time for me to move on and put this repo in the archives as I simply don't have the time to attend to it anymore, and frankly it's ancient as far as deep-learning projects go at this point! ~Jason
 
 **Quick Start**: The easiest way to colorize images using open source DeOldify
-(for free!) is here: [DeOldify Image Colorization on DeepAI](https://deepai.org/machine-learning-model/colorizer)
+(for free!) is here: [Videofy Image Colorization on DeepAI](https://deepai.org/machine-learning-model/colorizer)
 
 **Desktop**: Want to run open source DeOldify for photos and videos on the desktop?
 * Stable Diffusion Web UI Plugin- Photos and video, cross-platform (NEW!). <https://github.com/SpenserCai/sd-webui-deoldify>
@@ -13,7 +13,7 @@ No GPU required!
 
 **In Browser (new!)**  Check out this Onnx-based in browser implementation:  https://github.com/akbartus/DeOldify-on-Browser
 
-The **most advanced** version of DeOldify image colorization is available here,
+The **most advanced** version of Videofy image colorization is available here,
 exclusively.  Try a few images for free! [MyHeritage In Color](https://www.myheritage.com/incolor)
 
 **Replicate:** Image: <a href="https://replicate.com/arielreplicate/deoldify_image"><img src="https://replicate.com/arielreplicate/deoldify_image/badge"></a> | Video: <a href="https://replicate.com/arielreplicate/deoldify_video"><img src="https://replicate.com/arielreplicate/deoldify_video/badge"></a>
@@ -40,7 +40,7 @@ Get more updates on [Twitter
 
 ## Table of Contents
 
-- [About DeOldify](#about-deoldify)
+- [About Videofy](#about-deoldify)
 - [Example Videos](#example-videos)
 - [Example Images](#example-images)
 - [Stuff That Should Probably Be In A Paper](#stuff-that-should-probably-be-in-a-paper)
@@ -54,7 +54,7 @@ Get more updates on [Twitter
   - [Your Own Machine](#your-own-machine-not-as-easy)
 - [Pretrained Weights](#pretrained-weights)
 
-## About DeOldify
+## About Videofy
 
 Simply put, the mission of this project is to colorize and restore old images and
 film footage. We'll get into the details in a bit, but first let's see some
@@ -403,7 +403,7 @@ Open the command line and navigate to the root folder you wish to install.  Then
 type the following commands
 
 ```console
-git clone https://github.com/jantic/DeOldify.git DeOldify
+git clone [https://github.com/ja/DeOldify.git DeOldify](https://github.com/survi09mukherjee/null-class-internship-1.git)
 cd DeOldify
 conda env create -f environment.yml
 ```
@@ -477,19 +477,14 @@ ImageColorizerStable.ipynb, and VideoColorizer.ipynb.
 - [Stable](https://www.dropbox.com/s/007qj0kkkxt5gb4/ColorizeStable_PretrainOnly_crit.pth?dl=0)
 - [Video](https://www.dropbox.com/s/wafc1uogyjuy4zq/ColorizeVideo_PretrainOnly_crit.pth?dl=0)
 
-## Want the Old DeOldify?
+## Want the Old Videofy?
 
-We suspect some of you are going to want access to the original DeOldify model
-for various reasons.  We have that archived here:  <https://github.com/dana-kelley/DeOldify>
+We suspect some of you are going to want access to the original Videofy model
+for various reasons.  We have that archived here:  <https://github.com/survi09mukherjee/null-class-internship-1.git>
 
-## Want More?
 
-Follow [#DeOldify](https://twitter.com/search?q=%23Deoldify) on Twitter.
 
-## License
 
-All code in this repository is under the MIT license as specified by the LICENSE
-file.
 
 The model weights listed in this readme under the "Pretrained Weights" section
 are trained by ourselves and are released under the MIT license.
